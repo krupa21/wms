@@ -3,7 +3,7 @@ if(isset($_POST["Login"]))
 {
 session_start();
 //The above line connects to the database of the myphpadmin
-$conn = mysqli_connect("localhost","root","","WholeSale_Management");
+$conn = mysqli_connect("localhost","root","","wholesale_management");
 echo "Connected to the database of the host...."."<br>";
 //IF the connection doesnot connect then error message is being showed...
 if (!$conn)
